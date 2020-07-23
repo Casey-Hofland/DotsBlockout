@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <ui:VisualElement style="flex-grow: 1; background-color: rgb(126, 126, 126); align-items: center; justify-content: center;">
-        <Style src="uss/Button.uss" />
+        <Style src="/Assets/UI/uss/Button.uss" />
         <ui:Label text="You Win" style="font-size: 144px; color: rgb(255, 255, 255);" />
         <ui:Button text="Continue" name="continue-button" class="button" style="background-color: rgb(168, 161, 79);" />
         <ui:Button text="Quit" name="quit-button" class="button" style="background-color: rgb(159, 76, 77);" />

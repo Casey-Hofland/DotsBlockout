@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <ui:VisualElement style="flex-grow: 1; background-color: rgb(126, 126, 126); align-items: center; justify-content: center;">
-        <Style src="uss/Button.uss" />
-        <ui:Button text="Start" name="start-button" class="button" style="background-color: rgba(76, 159, 81, 255);" />
+        <Style src="/Assets/UI/uss/Button.uss" />
+        <ui:Button text="Start" name="start-button" class="button" style="background-color: rgb(76, 159, 81);" />
         <ui:Button text="Quit" name="quit-button" class="button" style="background-color: rgb(159, 76, 77);" />
     </ui:VisualElement>
 </ui:UXML>
