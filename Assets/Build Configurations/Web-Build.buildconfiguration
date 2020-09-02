@@ -4,6 +4,18 @@
     ],
     "Components": [
         {
+            "$type": "Unity.Build.Web.DotsRuntime.WasmOutputSettings, Unity.Build.Web.DotsRuntime",
+            "OutputSingleHTMLFile": true,
+            "MinifyHTMLFile": true,
+            "MinifyOutputWithClosure": false,
+            "EmbedCpuProfiler": false,
+            "EmbedMemoryProfiler": false,
+            "IncludeSymbolsForBrowserCallstacks": false,
+            "EmitRuntimeMemoryDebugChecks": false,
+            "EmitRuntimeAllocationDebugChecks": false,
+            "WebTemplateFolder": ""
+        },
+        {
             "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
             "$version": 1,
             "Platform": "Windows",
